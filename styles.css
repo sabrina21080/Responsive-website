@@ -439,16 +439,13 @@ body {
 
 /* Responsive */
 @media screen and (max-width: 768px) {
-   .card {
-    flex-direction: column;
-    flex: -1 -1 ;
-    margin-bottom: 20px;
+   .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
-
 
   .footer-container  {
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
   }
   
