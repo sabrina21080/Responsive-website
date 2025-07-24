@@ -463,7 +463,16 @@ body {
 
 /* Responsive */
 @media screen and (max-width: 600px) {
-   .product-grid {
+
+  .hero-grid{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+
+   
+  }
+
+  .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
